@@ -13,10 +13,10 @@ export default function Main() {
     <S.Container>
       <S.TopMenu>
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <div className="menuItem1">{menuItens("Contato")}</div>
+          <div>{menuItens("Contato")}</div>
         </a>
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <div className="menuItem2">{menuItens("Projetos")}</div>
+          <div>{menuItens("Projetos")}</div>
         </a>
 
         <a
@@ -24,14 +24,14 @@ export default function Main() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="menuItem3">{menuItens("Linkedin")}</div>
+          <div>{menuItens("Linkedin")}</div>
         </a>
         <a
           href="https://github.com/ebertm777"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="menuItem4">{menuItens("Github")}</div>
+          <div>{menuItens("Github")}</div>
         </a>
       </S.TopMenu>
     </S.Container>

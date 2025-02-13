@@ -23,4 +23,6 @@ export const TopMenuItens = styled.div`
   background: transparent;
   border-bottom: 2px solid #33006f;
   font-size: 22px;
+  font-family: "Lato";
+  font-weight: 300;
 `;
