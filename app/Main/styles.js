@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0px 100px 0px 100px;
+  padding: 0px 120px 0px 120px;
 `;
 
 export const TopMenu = styled.div`
@@ -31,13 +31,17 @@ export const TopMenuItens = styled.div`
 `;
 
 export const ProfilePic = styled.img.attrs({
-  src: "/ValenciaFoto.jpg"
+  src: "/ValenciaFoto.jpg",
 })`
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
   align-self: center;
-  margin-top: 40px;
+  margin-top: 50px;
   outline: 2px solid #662d91;
+
+  &:hover {
+    outline: 3px solid #662d91;
+  }
 `;
