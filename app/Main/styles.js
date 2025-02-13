@@ -6,10 +6,11 @@ export const Container = styled.div`
 `;
 
 export const TopMenu = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  padding: 0px 20px 0px 20px;
+  justify-content: space-around;
+  padding: 0px 30px 0px 30px;
 
   a {
     all: unset;
