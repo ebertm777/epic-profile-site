@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <html
       style={{
         backgroundColor: "#faf9f6",
-        cursor: 'url("/busterSword.png"), auto',
+        cursor: 'url("/diamondSword.cur"), auto',
       }}
       lang="en"
       suppressHydrationWarning

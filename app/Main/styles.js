@@ -11,13 +11,14 @@ export const TopMenu = styled.div`
   width: 100%;
 `;
 
-export const TopMenuItens = styled.button`
-  cursor: url("/busterSwordLinkSelect.png"), auto; 
-  pointer-events: all; 
-  background: none; 
-  border: 1px solid #33006F; 
-
-  :hover{
-    box-shadow: 2px 2px 5px 0px rgba(72,72,72,1);
-  }
+export const TopMenuItens = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap");
+  cursor: url("/goldSword.cur"), auto;
+  pointer-events: all;
+  background: transparent;
+  border-bottom: 3px solid #33006f;
+  margin: 10px;
+  font-family: "Atkinson Hyperlegible Mono", monospace;
+  font-size: 22px;
+  font-weight: 700;
 `;
