@@ -12,10 +12,26 @@ export default function Main() {
   return (
     <S.Container>
       <S.TopMenu>
-        <div>{menuItens("Contato")}</div>
-        <div>{menuItens("Links")}</div>
-        <div>{menuItens("Github")}</div>
-        <div>{menuItens("Projetos")}</div>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <div>{menuItens("Contato")}</div>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <div>{menuItens("Projetos")}</div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ebermacedo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div>{menuItens("Linkedin")}</div>
+        </a>
+        <a
+          href="https://github.com/ebertm777"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div>{menuItens("Github")}</div>
+        </a>
       </S.TopMenu>
     </S.Container>
   );

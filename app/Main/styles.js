@@ -12,9 +12,7 @@ export const TopMenu = styled.div`
   padding: 0px 0px 20px 20px;
 
   a {
-    color: #000000;
-    text-decoration: none;
-    background-color: red
+    all: unset;
   }
 `;
 
