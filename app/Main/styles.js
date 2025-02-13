@@ -21,8 +21,9 @@ export const TopMenuItens = styled.div`
   cursor: url("/goldSword.cur"), auto;
   pointer-events: all;
   background: transparent;
-  border-bottom: 2px solid #33006f;
+  border-bottom: 1px solid #662d91;
   font-size: 22px;
   font-family: "Lato";
   font-weight: 300;
+  padding-bottom: 2px;
 `;

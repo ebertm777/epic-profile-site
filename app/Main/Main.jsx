@@ -1,6 +1,6 @@
 "use client";
 import * as S from "./styles";
-
+import GlobalStyle from "./../Constants/GlobalStyle.js";
 const redirectMe = require("../Functions/Functions.js");
 const { goToMyGithub, goToMyLinkedin } = redirectMe;
 
@@ -11,6 +11,7 @@ const menuItens = (name) => {
 export default function Main() {
   return (
     <S.Container>
+     <GlobalStyle />
       <S.TopMenu>
         <a href="#" target="_blank" rel="noopener noreferrer">
           <div>{menuItens("Contato")}</div>
