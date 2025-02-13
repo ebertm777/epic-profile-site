@@ -9,6 +9,7 @@ export const TopMenu = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding: 0px 0px 20px 20px;
 `;
 
 export const TopMenuItens = styled.div`
