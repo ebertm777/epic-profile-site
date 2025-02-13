@@ -38,7 +38,7 @@ export default function Main() {
           <MenuItens key={index} href={item.href} name={item.name} />
         ))}
       </S.TopMenu>
-      <S.ProfilePic src="/ValenciaFoto.jpg"/>
+      <S.ProfilePic />
     </S.Container>
   );
 }

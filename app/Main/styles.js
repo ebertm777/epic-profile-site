@@ -30,7 +30,9 @@ export const TopMenuItens = styled.div`
   margin: 0px 20px 0px 20px;
 `;
 
-export const ProfilePic = styled.img`
+export const ProfilePic = styled.img.attrs({
+  src: "/ValenciaFoto.jpg"
+})`
   width: 200px;
   height: 200px;
   border-radius: 50%;
