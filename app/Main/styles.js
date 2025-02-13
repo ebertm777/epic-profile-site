@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  background-color: #faf9f6;
 `;
 
 export const TopMenu = styled.div`
@@ -10,7 +9,7 @@ export const TopMenu = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0px 30px 0px 30px;
+  padding: 0px 100px 0px 100px;
 
   a {
     all: unset;
@@ -26,4 +25,6 @@ export const TopMenuItens = styled.div`
   font-family: "Lato";
   font-weight: 300;
   padding: 2px;
+  color: #FAF9F6;
+  margin: 0px 20px 0px 20px;
 `;

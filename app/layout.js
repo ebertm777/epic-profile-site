@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       style={{
-        backgroundColor: "#faf9f6",
+        backgroundColor: "#28282B",
         cursor: 'url("/diamondSword.cur"), auto',
       }}
       lang="en"

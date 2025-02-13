@@ -1,6 +1,7 @@
 "use client";
 import * as S from "./styles";
 import GlobalStyle from "./../Constants/GlobalStyle.js";
+
 const redirectMe = require("../Functions/Functions.js");
 const { goToMyGithub, goToMyLinkedin } = redirectMe;
 
