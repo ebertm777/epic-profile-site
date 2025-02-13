@@ -5,36 +5,38 @@ import GlobalStyle from "./../Constants/GlobalStyle.js";
 const redirectMe = require("../Functions/Functions.js");
 const { goToMyGithub, goToMyLinkedin } = redirectMe;
 
-const menuItens = (name) => {
+const MenuComponents = (name) => {
   return <S.TopMenuItens>{name}</S.TopMenuItens>;
 };
+
+const MenuItens = ({
+  href,
+  name,
+  target = "_blank",
+  rel = "noopener noreferrer",
+}) => {
+  return (
+    <S.Anchor href={href} target={target} rel={rel}>
+      {MenuComponents(name)}
+    </S.Anchor>
+  );
+};
+
+const menuData = [
+  { href: "#", name: "Contato" },
+  { href: "#", name: "Projetos" },
+  { href: "https://www.linkedin.com/in/ebermacedo/", name: "Linkedin" },
+  { href: "https://github.com/ebertm777", name: "Github" },
+];
 
 export default function Main() {
   return (
     <S.Container>
-     <GlobalStyle />
+      <GlobalStyle />
       <S.TopMenu>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <div>{menuItens("Contato")}</div>
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <div>{menuItens("Projetos")}</div>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/ebermacedo/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div>{menuItens("Linkedin")}</div>
-        </a>
-        <a
-          href="https://github.com/ebertm777"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div>{menuItens("Github")}</div>
-        </a>
+        {menuData.map((item, index) => (
+          <MenuItens key={index} href={item.href} name={item.name} />
+        ))}
       </S.TopMenu>
     </S.Container>
   );

@@ -10,10 +10,10 @@ export const TopMenu = styled.div`
   flex-direction: row;
   justify-content: space-around;
   padding: 0px 100px 0px 100px;
+`;
 
-  a {
-    all: unset;
-  }
+export const Anchor = styled.a`
+  all: unset;
 `;
 
 export const TopMenuItens = styled.div`
@@ -25,6 +25,6 @@ export const TopMenuItens = styled.div`
   font-family: "Lato";
   font-weight: 300;
   padding: 2px;
-  color: #FAF9F6;
+  color: #faf9f6;
   margin: 0px 20px 0px 20px;
 `;
