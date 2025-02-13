@@ -25,5 +25,5 @@ export const TopMenuItens = styled.div`
   font-size: 22px;
   font-family: "Lato";
   font-weight: 300;
-  padding-bottom: 2px;
+  padding: 2px;
 `;
