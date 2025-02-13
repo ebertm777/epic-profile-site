@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: column;
+  padding: 0px 100px 0px 100px;
 `;
 
 export const TopMenu = styled.div`
@@ -9,7 +11,6 @@ export const TopMenu = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0px 100px 0px 100px;
 `;
 
 export const Anchor = styled.a`
@@ -27,4 +28,14 @@ export const TopMenuItens = styled.div`
   padding: 2px;
   color: #faf9f6;
   margin: 0px 20px 0px 20px;
+`;
+
+export const ProfilePic = styled.img`
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  align-self: center;
+  margin-top: 40px;
+  outline: 2px solid #662d91;
 `;
