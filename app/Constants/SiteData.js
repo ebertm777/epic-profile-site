@@ -10,12 +10,8 @@ export const githubLink = "https://github.com/ebertm777";
 
 export const cardData = [
   "Currently using JavaScript, React, and Node.js to build awesome web applications at work, with a strong focus on user usability and interactive applications.",
-  "Currently using JavaScript, React and Node.js to build awesome web applications at work",
+  "You'll probably find me playing video games, watching Movies, Series, Animes, Tokusatsus or listening to music.",
   "Currently using JavaScript, React and Node.js to build awesome web applications at work",
 ];
 
-export const emojiData = [
-  "🧑‍🔧 At Work:",
-  "🎮 Free Time:",
-  "🌱 Getting into:",
-];
+export const emojiData = ["🧑‍🔧 At Work:", "🎮 Free Time:", "🌱 Getting into:"];

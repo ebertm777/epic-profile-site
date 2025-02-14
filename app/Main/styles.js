@@ -17,6 +17,9 @@ export const TopMenu = styled.div`
   font-family: "Lato";
   font-size: 22px;
   align-self: center;
+  position: sticky;
+  top: 0;
+  background-color: #28282B;
 
   div {
     padding: 2px;
