@@ -20,7 +20,7 @@ export const TopMenu = styled.div`
 
   div {
     padding: 2px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 40px;
     transition: all 100ms ease;
     pointer-events: all;
     cursor: url("/goldSword.cur"), auto;

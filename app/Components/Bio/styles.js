@@ -5,6 +5,7 @@ export const Container = styled.div`
   justify-content: space-around;
   width: 100%;
   max-width: 1200px;
+  margin-top: 50px;
 
   a {
     all: unset;
@@ -81,7 +82,6 @@ export const ProfilePic = styled.img.attrs({
   border-bottom-right-radius: 123px;
   object-fit: cover;
   align-self: center;
-  margin-top: 50px;
   outline: 2px solid #662d91;
   transition: all 100ms ease;
 
