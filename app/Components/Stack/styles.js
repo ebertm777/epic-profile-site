@@ -68,7 +68,8 @@ margin-bottom: 10px;
 
 export const Description = styled.p`
   font-family: "Lato";
-  font-size: 18px;
+  font-size: 16px;
   color: #36454f;
   margin: 0px 0px 0px 0px;
+  height: 150px;
 `;
