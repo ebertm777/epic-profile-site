@@ -94,6 +94,7 @@ export const GithubIcon = styled.img.attrs({
   border-radius: 50%;
   transition: all 100ms ease;
   margin-left: 10px;
+  cursor: url("/goldSword.cur"), auto;
 
   &:hover {
     outline: 4px solid #662d91;
@@ -107,6 +108,7 @@ export const LinkedinIcon = styled.img.attrs({
   height: 39px;
   border-radius: 50%;
   transition: all 100ms ease;
+  cursor: url("/goldSword.cur"), auto;
 
   &:hover {
     outline: 4px solid #662d91;

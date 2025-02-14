@@ -29,7 +29,7 @@ export default function Main() {
     <S.Container>
       <GlobalStyle />
       <S.TopMenu>
-        <S.AuthorItem>Eber.</S.AuthorItem>
+        <S.AuthorItem>About me.</S.AuthorItem>
         <S.Elements>
           {menuData.map((item, index) => (
             <MenuItens key={index} href={item.href} name={item.name} /> 
@@ -38,7 +38,6 @@ export default function Main() {
       </S.TopMenu>
       <S.PersonalContainer>
       <Bio/>
-      {/* <S.ProfilePic /> */}
       </S.PersonalContainer>
     </S.Container>
   );

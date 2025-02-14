@@ -13,7 +13,7 @@ export default function Bio() {
         <p>I am a</p>
         <h2>Front-end Engineer🧑‍💻</h2>
         <h3>
-          from Brazil. 🇧🇷 passionate about coding and constantly improving my
+          from Rio de Janeiro, Brazil. 🇧🇷 passionate about coding and constantly improving my
           skills.
         </h3>
         <h3>
