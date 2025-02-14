@@ -57,20 +57,3 @@ export const PersonalContainer = styled.div`
   width: 100%;
   justify-content: center;
 `;
-
-// export const ProfilePic = styled.img.attrs({
-//   src: "/ValenciaFoto.jpg",
-// })`
-//   width: 220px;
-//   height: 220px;
-//   border-radius: 50%;
-//   object-fit: cover;
-//   align-self: center;
-//   margin-top: 50px;
-//   outline: 2px solid #662d91;
-//   transition: all 100ms ease;
-
-//   &:hover {
-//     outline: 8px solid #662d91;
-//   }
-// `;

@@ -16,7 +16,7 @@ export const BioPresentation = styled.div`
     font-weight: 100;
     color: #f9f6ee;
     font-size: 18px;
-    margin: 60% 0px 0px 20px;
+    margin: 50% 0px 0px 40px;
   }
 
   h2 {
@@ -25,7 +25,7 @@ export const BioPresentation = styled.div`
     color: #f9f6ee;
     font-size: 44px;
     margin-left: 16px;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 40px;
     width: 300px;
     line-height: 42px;
   }
@@ -36,7 +36,7 @@ export const BioPresentation = styled.div`
     color: #f9f6ee;
     font-size: 16px;
     margin-left: 16px;
-    margin: 6px 0px 0px 20px;
+    margin: 6px 0px 0px 40px;
     max-width: 500px;
   }
 `;
@@ -77,5 +77,38 @@ export const ProfilePic = styled.img.attrs({
 
   &:hover {
     outline: 8px solid #662d91;
+  }
+`;
+
+export const Icons = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px 0px 40px;
+`;
+
+export const GithubIcon = styled.img.attrs({
+  src: "/github.svg",
+})`
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  transition: all 100ms ease;
+  margin-left: 10px;
+
+  &:hover {
+    outline: 4px solid #662d91;
+  }
+`;
+
+export const LinkedinIcon = styled.img.attrs({
+  src: "/linkedin.png",
+})`
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  transition: all 100ms ease;
+
+  &:hover {
+    outline: 4px solid #662d91;
   }
 `;

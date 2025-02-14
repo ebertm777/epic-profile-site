@@ -20,6 +20,10 @@ export default function Bio() {
           Currently focused on leveling up my programming skills, aiming to go
           full-stack by the end of 2025.🔭
         </h3>
+        <S.Icons>
+          <S.LinkedinIcon />
+          <S.GithubIcon />
+        </S.Icons>
       </S.BioPresentation>
     </S.Container>
   );
