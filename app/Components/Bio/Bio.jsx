@@ -16,6 +16,10 @@ export default function Bio() {
           from Brazil. 🇧🇷 passionate about coding and constantly improving my
           skills.
         </h3>
+        <h3>
+          Currently focused on leveling up my programming skills, aiming to go
+          full-stack by the end of 2025.🔭
+        </h3>
       </S.BioPresentation>
     </S.Container>
   );
