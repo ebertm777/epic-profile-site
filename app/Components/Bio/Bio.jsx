@@ -11,6 +11,7 @@ export default function Bio() {
       <S.ProfilePic />
       <S.BioPresentation>
         <p>I am a</p>
+        <h2>Front-end Engineer 🧑‍💻</h2>
       </S.BioPresentation>
     </S.Container>
   );

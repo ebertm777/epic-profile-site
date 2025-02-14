@@ -9,12 +9,23 @@ export const BioPresentation = styled.div`
   display: flex;
   flex-direction: column;
   align-self: center;
+  justify-content: space-around;
 
   p {
     font-family: "Quicksand";
     font-weight: 100;
     color: #f9f6ee;
     font-size: 18px;
+    margin: 50% 0px 0px 16px;
+  }
+
+  h2 {
+    font-family: "Quicksand";
+    font-weight: 700;
+    color: #f9f6ee;
+    font-size: 44px;
+    margin-left: 16px;
+    margin: 0px 0px 0px 16px;
   }
 `;
 
@@ -24,24 +35,27 @@ export const SayHello = styled.h1`
   font-weight: 400;
   font-size: 18px;
   align-self: center;
-  margin: 0px 0px 0px 0px;
   align-self: flex-start;
+  margin: 0px 0px 0px 0px;
 `;
 
 export const MyName = styled.h1`
   font-family: "Quicksand";
   font-weight: 700;
   font-size: 44px;
-  margin: 0px 60px 0px 0px;
+  margin: 0px 40px 0px 0px;
   color: #ffffff;
 `;
 
 export const ProfilePic = styled.img.attrs({
   src: "/ValenciaFoto.jpg",
 })`
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
+  min-width: 260px;
+  min-height: 460px;
+  max-width: 260px;
+  max-height: 460px;
+  border-top-left-radius: 150px;
+border-bottom-right-radius: 123px;
   object-fit: cover;
   align-self: center;
   margin-top: 50px;
