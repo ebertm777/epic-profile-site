@@ -8,6 +8,7 @@ export const Container = styled.div`
 
 export const TopMenu = styled.div`
   width: 100%;
+  max-width: 1200px;
   height: 35px;
   display: flex;
   flex-direction: row;
@@ -15,6 +16,7 @@ export const TopMenu = styled.div`
   color: #f9f6ee;
   font-family: "Lato";
   font-size: 22px;
+  align-self: center;
 
   div {
     padding: 2px;
@@ -35,7 +37,7 @@ export const AuthorItem = styled.h2`
   font-size: 22px;
   font-weight: 700;
   padding: 2px;
-  margin: 0px 20px 0px 20px;
+  margin: 0px auto 0px 0px;
 `;
 
 export const Elements = styled.section`

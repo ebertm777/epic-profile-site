@@ -2,7 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+
+  a {
+    all: unset;
+  }
 `;
 
 export const BioPresentation = styled.div`
@@ -39,6 +45,10 @@ export const BioPresentation = styled.div`
     margin: 6px 0px 0px 40px;
     max-width: 500px;
   }
+
+  span {
+    font-size: 38px;
+  }
 `;
 
 export const SayHello = styled.h1`
@@ -63,10 +73,10 @@ export const MyName = styled.h1`
 export const ProfilePic = styled.img.attrs({
   src: "/ValenciaFoto.jpg",
 })`
-  min-width: 260px;
-  min-height: 460px;
-  max-width: 260px;
-  max-height: 460px;
+  min-width: 290px;
+  min-height: 480px;
+  max-width: 290px;
+  max-height: 480px;
   border-top-left-radius: 150px;
   border-bottom-right-radius: 123px;
   object-fit: cover;
