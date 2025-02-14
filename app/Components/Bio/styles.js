@@ -16,7 +16,7 @@ export const BioPresentation = styled.div`
     font-weight: 100;
     color: #f9f6ee;
     font-size: 18px;
-    margin: 50% 0px 0px 16px;
+    margin: 60% 0px 0px 20px;
   }
 
   h2 {
@@ -25,7 +25,19 @@ export const BioPresentation = styled.div`
     color: #f9f6ee;
     font-size: 44px;
     margin-left: 16px;
-    margin: 0px 0px 0px 16px;
+    margin: 0px 0px 0px 20px;
+    width: 300px;
+    line-height: 42px;
+  }
+
+  h3 {
+    font-family: "Quicksand";
+    font-weight: 300;
+    color: #f9f6ee;
+    font-size: 16px;
+    margin-left: 16px;
+    margin: 6px 0px 0px 20px;
+    max-width: 500px;
   }
 `;
 
@@ -45,6 +57,7 @@ export const MyName = styled.h1`
   font-size: 44px;
   margin: 0px 40px 0px 0px;
   color: #ffffff;
+  max-width: 270px;
 `;
 
 export const ProfilePic = styled.img.attrs({
@@ -55,7 +68,7 @@ export const ProfilePic = styled.img.attrs({
   max-width: 260px;
   max-height: 460px;
   border-top-left-radius: 150px;
-border-bottom-right-radius: 123px;
+  border-bottom-right-radius: 123px;
   object-fit: cover;
   align-self: center;
   margin-top: 50px;
