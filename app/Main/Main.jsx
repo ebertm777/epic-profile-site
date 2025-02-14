@@ -1,6 +1,7 @@
 "use client";
 import * as S from "./styles";
 import GlobalStyle from "./../Constants/GlobalStyle.js";
+import { menuData } from "../Constants/siteData";
 
 const redirectMe = require("../Functions/Functions.js");
 const { goToMyGithub, goToMyLinkedin } = redirectMe;
@@ -21,13 +22,6 @@ const MenuItens = ({
     </S.Anchor>
   );
 };
-
-const menuData = [
-  { href: "#", name: "Contato" },
-  { href: "#", name: "Projetos" },
-  { href: "https://www.linkedin.com/in/ebermacedo/", name: "Linkedin" },
-  { href: "https://github.com/ebertm777", name: "Github" },
-];
 
 export default function Main() {
   return (

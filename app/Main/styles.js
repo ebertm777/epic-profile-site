@@ -8,6 +8,7 @@ export const Container = styled.div`
 
 export const TopMenu = styled.div`
   width: 100%;
+  height: 35px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -26,8 +27,14 @@ export const TopMenuItens = styled.div`
   font-family: "Lato";
   font-weight: 300;
   padding: 2px;
-  color: #faf9f6;
+  color: #F9F6EE;
   margin: 0px 20px 0px 20px;
+  transition: all 100ms ease;
+
+  &:hover {
+    color: #ffffff;
+    border-bottom: 6px solid #662d91;
+  }
 `;
 
 export const ProfilePic = styled.img.attrs({
@@ -40,8 +47,9 @@ export const ProfilePic = styled.img.attrs({
   align-self: center;
   margin-top: 50px;
   outline: 2px solid #662d91;
+  transition: all 100ms ease;
 
   &:hover {
-    outline: 3px solid #662d91;
+    outline: 8px solid #662d91;
   }
 `;
