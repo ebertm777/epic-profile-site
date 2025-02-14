@@ -24,15 +24,15 @@ export const CardGroup = styled.div`
   justify-content: space-around;
 
   #card-0 {
-    background-color: #f5deb3;
+    background-color: #b3f5c8;
   }
 
   #card-1 {
-    background-color: #e9d4ae;
+    background-color: #b9f5b3;
   }
 
   #card-2 {
-    background-color: #ddcba9;
+    background-color: #d5f5b3;
   }
 `;
 
@@ -42,10 +42,11 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 14px;
   margin-right: 8px;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Title = styled.h1`
@@ -55,8 +56,19 @@ export const Title = styled.h1`
   font-size: 34px;
 `;
 
+export const EmojiCall = styled.p`
+font-family: "Prompt";
+font-weight: 100;
+color: #28282B;
+font-size: 16px;
+margin: 0;
+align-self: flex-start;
+margin-bottom: 10px;
+`;
+
 export const Description = styled.p`
   font-family: "Lato";
   font-size: 18px;
   color: #36454f;
+  margin: 0px 0px 0px 0px;
 `;
