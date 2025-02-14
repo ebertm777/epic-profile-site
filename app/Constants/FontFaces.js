@@ -48,4 +48,12 @@ export default css`
     font-display: swap;
     src: url("/Quicksand-SemiBold.ttf") format("truetype");
   }
+
+  // Quicksand light
+  @font-face {
+    font-family: "Quicksand";
+    font-weight: 100;
+    font-display: swap;
+    src: url("/Quicksand-Light.ttf") format("truetype");
+  }
 `;

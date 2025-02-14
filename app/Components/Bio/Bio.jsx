@@ -9,6 +9,9 @@ export default function Bio() {
       <S.MyName>Eber Torres Macedo</S.MyName>
       </S.BioPresentation>
       <S.ProfilePic />
+      <S.BioPresentation>
+        <p>I am a</p>
+      </S.BioPresentation>
     </S.Container>
   );
 }

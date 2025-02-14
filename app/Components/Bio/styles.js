@@ -9,6 +9,13 @@ export const BioPresentation = styled.div`
   display: flex;
   flex-direction: column;
   align-self: center;
+
+  p {
+    font-family: "Quicksand";
+    font-weight: 100;
+    color: #f9f6ee;
+    font-size: 18px;
+  }
 `;
 
 export const SayHello = styled.h1`
