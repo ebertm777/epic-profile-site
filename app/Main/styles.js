@@ -30,8 +30,12 @@ export const TopMenu = styled.div`
   }
 `;
 
-export const AuthorItem = styled.div`
+export const AuthorItem = styled.h2`
+  font-family: "Lato";
+  font-size: 22px;
   font-weight: 700;
+  padding: 2px;
+  margin: 0px 20px 0px 20px;
 `;
 
 export const Elements = styled.section`
@@ -48,19 +52,25 @@ export const TopMenuItens = styled.div`
   color: #f9f6ee;
 `;
 
-export const ProfilePic = styled.img.attrs({
-  src: "/ValenciaFoto.jpg",
-})`
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  align-self: center;
-  margin-top: 50px;
-  outline: 2px solid #662d91;
-  transition: all 100ms ease;
-
-  &:hover {
-    outline: 8px solid #662d91;
-  }
+export const PersonalContainer = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
 `;
+
+// export const ProfilePic = styled.img.attrs({
+//   src: "/ValenciaFoto.jpg",
+// })`
+//   width: 220px;
+//   height: 220px;
+//   border-radius: 50%;
+//   object-fit: cover;
+//   align-self: center;
+//   margin-top: 50px;
+//   outline: 2px solid #662d91;
+//   transition: all 100ms ease;
+
+//   &:hover {
+//     outline: 8px solid #662d91;
+//   }
+// `;

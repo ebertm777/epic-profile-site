@@ -32,4 +32,20 @@ export default css`
     font-display: swap;
     src: url("/Lato-Light.ttf") format("truetype");
   }
+
+  // Quicksand Regular
+  @font-face {
+    font-family: "Quicksand";
+    font-weight: 400;
+    font-display: swap;
+    src: url("/Quicksand-Regular.ttf") format("truetype");
+  }
+
+  // Quicksand semi bold
+  @font-face {
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-display: swap;
+    src: url("/Quicksand-SemiBold.ttf") format("truetype");
+  }
 `;

@@ -1,6 +1,7 @@
 "use client";
 import * as S from "./styles";
 import GlobalStyle from "./../Constants/GlobalStyle.js";
+import Bio from "../Components/Bio/Bio";
 import { menuData } from "../Constants/SiteData";
 
 const redirectMe = require("../Functions/Functions.js");
@@ -18,8 +19,8 @@ const MenuItens = ({
 }) => {
   return (
     <S.Anchor href={href} target={target} rel={rel}>
-      {MenuComponents(name)}
-    </S.Anchor>
+      {MenuComponents(name)} 
+    </S.Anchor> 
   );
 };
 
@@ -28,14 +29,17 @@ export default function Main() {
     <S.Container>
       <GlobalStyle />
       <S.TopMenu>
-        <S.AuthorItem>Eber Torres Macedo</S.AuthorItem>
+        <S.AuthorItem>Eber.</S.AuthorItem>
         <S.Elements>
           {menuData.map((item, index) => (
-            <MenuItens key={index} href={item.href} name={item.name} />
+            <MenuItens key={index} href={item.href} name={item.name} /> 
           ))}
         </S.Elements>
       </S.TopMenu>
-      <S.ProfilePic />
+      <S.PersonalContainer>
+      <Bio/>
+      {/* <S.ProfilePic /> */}
+      </S.PersonalContainer>
     </S.Container>
   );
 }
