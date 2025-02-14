@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-import fontFaces from "./fontFaces";
+import fontFaces from "./FontFaces";
 
 export default createGlobalStyle`
   ${fontFaces}

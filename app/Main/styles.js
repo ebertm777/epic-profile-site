@@ -12,6 +12,31 @@ export const TopMenu = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  color: #f9f6ee;
+  font-family: "Lato";
+  font-size: 22px;
+
+  div {
+    padding: 2px;
+    margin: 0px 20px 0px 20px;
+    transition: all 100ms ease;
+    pointer-events: all;
+    cursor: url("/goldSword.cur"), auto;
+
+    &:hover {
+      color: #ffffff;
+      border-bottom: 4px solid #662d91;
+    }
+  }
+`;
+
+export const AuthorItem = styled.div`
+  font-weight: 700;
+`;
+
+export const Elements = styled.section`
+  display: flex;
+  flex-direction: row;
 `;
 
 export const Anchor = styled.a`
@@ -19,29 +44,15 @@ export const Anchor = styled.a`
 `;
 
 export const TopMenuItens = styled.div`
-  cursor: url("/goldSword.cur"), auto;
-  pointer-events: all;
-  background: transparent;
-  border-bottom: 1px solid #662d91;
-  font-size: 22px;
-  font-family: "Lato";
   font-weight: 300;
-  padding: 2px;
-  color: #F9F6EE;
-  margin: 0px 20px 0px 20px;
-  transition: all 100ms ease;
-
-  &:hover {
-    color: #ffffff;
-    border-bottom: 6px solid #662d91;
-  }
+  color: #f9f6ee;
 `;
 
 export const ProfilePic = styled.img.attrs({
   src: "/ValenciaFoto.jpg",
 })`
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   align-self: center;

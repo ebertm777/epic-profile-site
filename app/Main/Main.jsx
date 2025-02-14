@@ -1,7 +1,7 @@
 "use client";
 import * as S from "./styles";
 import GlobalStyle from "./../Constants/GlobalStyle.js";
-import { menuData } from "../Constants/siteData";
+import { menuData } from "../Constants/SiteData";
 
 const redirectMe = require("../Functions/Functions.js");
 const { goToMyGithub, goToMyLinkedin } = redirectMe;
@@ -28,9 +28,12 @@ export default function Main() {
     <S.Container>
       <GlobalStyle />
       <S.TopMenu>
-        {menuData.map((item, index) => (
-          <MenuItens key={index} href={item.href} name={item.name} />
-        ))}
+        <S.AuthorItem>Eber Torres Macedo</S.AuthorItem>
+        <S.Elements>
+          {menuData.map((item, index) => (
+            <MenuItens key={index} href={item.href} name={item.name} />
+          ))}
+        </S.Elements>
       </S.TopMenu>
       <S.ProfilePic />
     </S.Container>
