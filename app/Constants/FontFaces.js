@@ -56,4 +56,12 @@ export default css`
     font-display: swap;
     src: url("/Quicksand-Light.ttf") format("truetype");
   }
+
+   // Prompt Regular
+   @font-face {
+    font-family: "Prompt";
+    font-weight: 400;
+    font-display: swap;
+    src: url("/Prompt-Regular.ttf") format("truetype");
+  }
 `;

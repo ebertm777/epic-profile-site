@@ -55,7 +55,9 @@ export const TopMenuItens = styled.div`
 `;
 
 export const PersonalContainer = styled.div`
+  width: 100%; 
   display: flex;
-  width: 100%;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 `;

@@ -2,6 +2,7 @@
 import * as S from "./styles";
 import GlobalStyle from "./../Constants/GlobalStyle.js";
 import Bio from "../Components/Bio/Bio";
+import Stack from "../Components/Stack/Stack";
 import { menuData } from "../Constants/SiteData";
 
 const redirectMe = require("../Functions/Functions.js");
@@ -38,6 +39,7 @@ export default function Main() {
       </S.TopMenu>
       <S.PersonalContainer>
       <Bio/>
+      <Stack/>
       </S.PersonalContainer>
     </S.Container>
   );
