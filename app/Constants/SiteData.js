@@ -1,5 +1,3 @@
-import * as S from "../Main/styles";
-
 export const menuData = [
   { href: "#", name: "Contact" },
   { href: "#", name: "Projects" },
@@ -9,3 +7,9 @@ export const menuData = [
 
 export const linkedinLink = "https://www.linkedin.com/in/ebermacedo/";
 export const githubLink = "https://github.com/ebertm777";
+
+export const cardData = [
+  "Currently using JavaScript, React and Node.js to build awesome web applications at work",
+  "Currently using JavaScript, React and Node.js to build awesome web applications at work",
+  "Currently using JavaScript, React and Node.js to build awesome web applications at work",
+];

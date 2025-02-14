@@ -4,7 +4,6 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   max-width: 1040px;
-  height: 400px;
   margin-top: 50px;
   background-color: #36454f;
   border-top-left-radius: 10px;
@@ -22,6 +21,19 @@ export const CardGroup = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+  justify-content: space-around;
+
+  #card-0 {
+    background-color: #f5deb3;
+  }
+
+  #card-1 {
+    background-color: #e9d4ae;
+  }
+
+  #card-2 {
+    background-color: #ddcba9;
+  }
 `;
 
 export const Card = styled.div`
@@ -30,9 +42,10 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  background-color: #F5DEB3;
+
   padding: 20px;
   margin-top: 10px;
+  margin-right: 8px;
 `;
 
 export const Title = styled.h1`
