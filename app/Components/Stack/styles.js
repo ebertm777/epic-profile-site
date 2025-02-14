@@ -22,6 +22,7 @@ export const CardGroup = styled.div`
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   #card-0 {
     background-color: #b3f5c8;

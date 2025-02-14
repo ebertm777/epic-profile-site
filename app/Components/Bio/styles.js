@@ -66,9 +66,10 @@ export const MyName = styled.h1`
   font-family: "Quicksand";
   font-weight: 700;
   font-size: 44px;
-  margin: 0px 40px 0px 0px;
+  margin: 0px 0px 120px 0px;
   color: #ffffff;
   max-width: 270px;
+  
 `;
 
 export const ProfilePic = styled.img.attrs({
