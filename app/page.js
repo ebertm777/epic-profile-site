@@ -1,3 +1,4 @@
+"use client";
 import Main from "./Main/Main.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 

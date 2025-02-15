@@ -11,8 +11,15 @@ export const Container = styled.div`
 export const FooterContent = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   max-width: 1200px;
+`;
+
+export const Creation = styled.div`
+  display: flex;
+  flex-direction: row;
 `;
 
 export const Iten = styled.p`
@@ -23,7 +30,29 @@ export const Iten = styled.p`
 
 export const Name = styled.p`
   font-family: "Lato";
-  font-weight: 1300;
+  font-weight: 300;
+  font-size: 10px;
+  color: #ffffff;
+  margin-left: 4px;
+`;
+
+export const Year = styled.p`
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 12px;
+  color: #ffffff;
+`;
+
+export const Used = styled.p`
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 10px;
+  color: #ffffff;
+`;
+
+export const MadeWith = styled.p`
+  font-family: "Lato";
+  font-weight: 300;
   font-size: 10px;
   color: #ffffff;
   margin-left: 4px;
