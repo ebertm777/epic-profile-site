@@ -9,7 +9,7 @@ export const Container = styled.div`
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transition: all 100ms ease;
-  padding: 20px 80px 20px 80px;
+  padding: 0px 80px 40px 80px;
   flex-direction: column;
 
   &:hover {
@@ -55,16 +55,17 @@ export const Title = styled.h1`
   margin: 0px 0px 0px 0px;
   font-family: "Prompt";
   font-size: 34px;
+  margin: 30px 0px 0px 0px;
 `;
 
 export const EmojiCall = styled.p`
-font-family: "Prompt";
-font-weight: 100;
-color: #28282B;
-font-size: 16px;
-margin: 0;
-align-self: flex-start;
-margin-bottom: 10px;
+  font-family: "Prompt";
+  font-weight: 400;
+  color: #28282b;
+  font-size: 16px;
+  margin: 0;
+  align-self: flex-start;
+  margin-bottom: 10px;
 `;
 
 export const Description = styled.p`
@@ -73,4 +74,23 @@ export const Description = styled.p`
   color: #36454f;
   margin: 0px 0px 0px 0px;
   height: 150px;
+`;
+
+export const SmallTitle = styled.p`
+  margin-top: 16px;
+  color: #f9f6ee;
+  font-family: "Quicksand";
+  font-weight: 400;
+  margin-left: 0px;
+  font-size: 18px;
+`;
+
+export const MainSkills = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+`;
+
+export const Skills = styled.img`
+margin: 0px 10px 0px 0px;
 `;

@@ -14,7 +14,13 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <head></head>
-      <body>{children}</body>
+      <body
+        style={{
+          marginBottom: "0px",
+        }}
+      >
+        {children}
+      </body>
     </html>
   );
 }

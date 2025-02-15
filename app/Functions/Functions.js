@@ -1,7 +1,6 @@
-import { Card } from "../Components/Stack/styles";
-import { Description } from "../Components/Stack/styles";
-import { EmojiCall } from "../Components/Stack/styles";
-import { cardData, emojiData } from "../Constants/SiteData";
+import { Card, Description, EmojiCall } from "../Components/Stack/styles";
+import { Skills, MainSkills } from "../Components/Stack/styles";
+import { cardData, emojiData, skillsData } from "../Constants/SiteData";
 
 function generateCard(card) {
   let cards = [];
@@ -16,4 +15,13 @@ function generateCard(card) {
   return cards;
 }
 
+function generateSkills(skill) {
+  let skills = [];
+  for (let i = 0; i < skill; i++) {
+    skills.push(<Skills key={i} id={`skill-${i}`} src={skillsData[i]} />);
+  }
+  return skills;
+}
+
 module.exports.generateCard = generateCard;
+module.exports.generateSkills = generateSkills;

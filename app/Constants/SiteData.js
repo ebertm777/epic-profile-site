@@ -15,3 +15,4 @@ export const cardData = [
 ];
 
 export const emojiData = ["🧑‍🔧 At Work:", "🎮 Free Time:", "🌱 Getting into:"];
+export const skillsData = ["/JS.svg", "/React.svg", "/Node.svg", "/Styled.svg"];
