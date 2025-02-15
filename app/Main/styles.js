@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0px 120px 0px 120px;
+  padding: 0px 120px 10px 120px;
 `;
 
 export const TopMenu = styled.div`
@@ -40,7 +40,7 @@ export const AuthorItem = styled.h2`
   font-size: 22px;
   font-weight: 700;
   padding: 2px;
-  margin: 0px auto 0px 0px;
+  margin: 0px auto 0px 20px;
 `;
 
 export const Elements = styled.section`

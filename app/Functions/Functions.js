@@ -1,6 +1,11 @@
 import { Card, Description, EmojiCall } from "../Components/Stack/styles";
-import { Skills, MainSkills } from "../Components/Stack/styles";
-import { cardData, emojiData, skillsData, techData } from "../Constants/SiteData";
+import { Skills } from "../Components/Stack/styles";
+import {
+  cardData,
+  emojiData,
+  skillsData,
+  techData,
+} from "../Constants/SiteData";
 
 function generateCard(card) {
   let cards = [];

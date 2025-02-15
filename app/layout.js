@@ -17,6 +17,8 @@ export default function RootLayout({ children }) {
       <body
         style={{
           marginBottom: "0px",
+          marginLeft: "0px",
+          marginRight: "0px",
         }}
       >
         {children}
