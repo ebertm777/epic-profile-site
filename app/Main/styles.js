@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0px 120px 10px 120px;
+  padding: 0px 120px 20px 120px;
 `;
 
 export const TopMenu = styled.div`
