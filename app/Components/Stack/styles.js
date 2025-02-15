@@ -92,5 +92,5 @@ export const MainSkills = styled.div`
 `;
 
 export const Skills = styled.img`
-margin: 0px 10px 0px 0px;
+  margin: 0px 10px 0px 0px;
 `;

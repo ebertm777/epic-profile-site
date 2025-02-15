@@ -2,7 +2,7 @@
 import * as S from "./styles";
 
 const createCards = require("../../Functions/Functions.js");
-const { generateCard, generateSkills } = createCards;
+const { generateCard, generateSkills, generateTechs } = createCards;
 
 export default function Stack() {
   return (
@@ -13,6 +13,7 @@ export default function Stack() {
       <S.SmallTitle>Main Skills</S.SmallTitle>
       <S.MainSkills>{generateSkills(4)}</S.MainSkills>
       <S.SmallTitle>Tools & Technologies</S.SmallTitle>
+      <S.MainSkills>{generateTechs(5)}</S.MainSkills>
     </S.Container>
   );
 }
