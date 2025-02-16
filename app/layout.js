@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <head></head>
       <body
         style={{
+          marginTop: "0px",
           marginBottom: "0px",
           marginLeft: "0px",
           marginRight: "0px",

@@ -1,6 +1,6 @@
 "use client";
 import * as S from "./styles";
-import { Anchor } from "@/app/Main/styles";
+import { Anchor } from "../Navbar/styles";
 import { linkedinLink, githubLink } from "@/app/Constants/SiteData";
 
 export default function Bio() {

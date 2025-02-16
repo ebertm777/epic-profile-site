@@ -5,11 +5,12 @@ export const Container = styled.div`
   display: flex;
   max-width: 1040px;
   margin-top: 50px;
+  margin-bottom: 50px;
   background-color: #36454f;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transition: all 100ms ease;
-  padding: 0px 80px 40px 80px;
+  padding: 0px 80px 80px 80px;
   flex-direction: column;
 
   &:hover {
