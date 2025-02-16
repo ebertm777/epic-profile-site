@@ -8,6 +8,7 @@ export const Container = styled.div`
   position: sticky;
   background-color: #28282b;
   padding: 0px 120px 0px 120px;
+  z-index: 1000;
 `;
 
 export const TopMenu = styled.div`
@@ -39,6 +40,7 @@ export const AuthorItem = styled.h2`
   font-weight: 700;
   padding: 2px;
   margin: 0px auto 0px 20px;
+  min-width: fit-content;
   cursor: url("/goldSword.cur"), auto;
 `;
 
