@@ -65,7 +65,7 @@ export const TopMenu = styled.div`
 
     &:hover {
       color: #ffffff;
-      border-bottom: 4px solid #662d91;
+      border-bottom: 4px solid #00A36C;
     }
   }
 `;

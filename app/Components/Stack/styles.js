@@ -13,7 +13,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   &:hover {
-    outline: 4px solid #662d91;
+    outline: 4px solid #00A36C;
   }
 `;
 

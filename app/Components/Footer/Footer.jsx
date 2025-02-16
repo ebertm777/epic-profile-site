@@ -11,9 +11,9 @@ export default function Footer() {
         </S.Creation>
         <S.Year>2025®</S.Year>
         <S.Creation>
-          <S.Used>Using:</S.Used>
+          <S.Used>Crafted Using:</S.Used>
           <S.MadeWith>
-            Javascript, React, Node.JS, Next.JS and Styled Components
+            Javascript, React, Node.JS and Next.JS
           </S.MadeWith>
         </S.Creation>
       </S.FooterContent>

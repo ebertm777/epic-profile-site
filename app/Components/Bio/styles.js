@@ -16,14 +16,14 @@ export const Container = styled.div`
   }
   @keyframes shadow-pop-br {
     0% {
-      text-shadow: 0 0 #662d91, 0 0 #662d91, 0 0 #662d91, 0 0 #662d91,
-        0 0 #662d91, 0 0 #662d91, 0 0 #662d91, 0 0 #662d91;
+      text-shadow: 0 0 #00A36C, 0 0 #00A36C, 0 0 #00A36C, 0 0 #00A36C,
+        0 0 #00A36C, 0 0 #00A36C, 0 0 #00A36C, 0 0 #00A36C;
       transform: translateX(0) translateY(0);
     }
     100% {
-      text-shadow: 1px 1px #662d91, 2px 2px #662d91, 3px 3px #662d91,
-        4px 4px #662d91, 5px 5px #662d91, 6px 6px #662d91, 7px 7px #662d91,
-        8px 8px #662d91;
+      text-shadow: 1px 1px #00A36C, 2px 2px #00A36C, 3px 3px #00A36C,
+        4px 4px #00A36C, 5px 5px #00A36C, 6px 6px #00A36C, 7px 7px #00A36C,
+        8px 8px #00A36C;
       transform: translateX(-8px) translateY(-8px);
     }
   }
@@ -100,11 +100,11 @@ export const ProfilePic = styled.img.attrs({
   border-bottom-right-radius: 123px;
   object-fit: cover;
   align-self: center;
-  outline: 2px solid #662d91;
+  outline: 2px solid #00A36C;
   transition: all 100ms ease;
 
   &:hover {
-    outline: 8px solid #662d91;
+    outline: 8px solid #00A36C;
   }
 `;
 
@@ -125,7 +125,7 @@ export const GithubIcon = styled.img.attrs({
   cursor: url("/goldSword.cur"), auto;
 
   &:hover {
-    outline: 4px solid #662d91;
+    outline: 4px solid #00A36C;
   }
 `;
 
@@ -139,6 +139,6 @@ export const LinkedinIcon = styled.img.attrs({
   cursor: url("/goldSword.cur"), auto;
 
   &:hover {
-    outline: 4px solid #662d91;
+    outline: 4px solid #00A36C;
   }
 `;
