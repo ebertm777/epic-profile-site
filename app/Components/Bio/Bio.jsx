@@ -13,7 +13,7 @@ export default function Bio() {
       <S.ProfilePic />
       <S.BioPresentation>
         <p>I am a</p>
-        <h2>
+        <h2 className="shadow-pop-br">
           Front-end Engineer<span>🧑‍💻</span>
         </h2>
         <h3>

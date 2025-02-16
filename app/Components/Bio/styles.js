@@ -10,6 +10,23 @@ export const Container = styled.div`
   a {
     all: unset;
   }
+
+  .shadow-pop-br {
+    animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  }
+  @keyframes shadow-pop-br {
+    0% {
+      text-shadow: 0 0 #662d91, 0 0 #662d91, 0 0 #662d91, 0 0 #662d91,
+        0 0 #662d91, 0 0 #662d91, 0 0 #662d91, 0 0 #662d91;
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      text-shadow: 1px 1px #662d91, 2px 2px #662d91, 3px 3px #662d91,
+        4px 4px #662d91, 5px 5px #662d91, 6px 6px #662d91, 7px 7px #662d91,
+        8px 8px #662d91;
+      transform: translateX(-8px) translateY(-8px);
+    }
+  }
 `;
 
 export const BioPresentation = styled.div`
@@ -23,7 +40,7 @@ export const BioPresentation = styled.div`
     font-weight: 100;
     color: #f9f6ee;
     font-size: 18px;
-    margin: 50% 0px 0px 40px;
+    margin: 50% 0px 0px 36px;
   }
 
   h2 {
@@ -32,7 +49,7 @@ export const BioPresentation = styled.div`
     color: #f9f6ee;
     font-size: 44px;
     margin-left: 16px;
-    margin: 0px 0px 0px 40px;
+    margin: 8px 0px 0px 40px;
     width: 300px;
     line-height: 42px;
   }
@@ -48,7 +65,8 @@ export const BioPresentation = styled.div`
   }
 
   span {
-    font-size: 38px;
+    font-size: 36px;
+    text-shadow: none !important;
   }
 `;
 
@@ -69,7 +87,6 @@ export const MyName = styled.h1`
   margin: 0px 0px 120px 0px;
   color: #ffffff;
   max-width: 270px;
-  
 `;
 
 export const ProfilePic = styled.img.attrs({
