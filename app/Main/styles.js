@@ -4,6 +4,41 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   padding: 0px 120px 20px 120px;
+
+  .flicker-1 {
+    animation: flicker-1 2s linear infinite both;
+  }
+
+  @keyframes flicker-1 {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    41.99% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0;
+    }
+    43% {
+      opacity: 0;
+    }
+    43.01% {
+      opacity: 1;
+    }
+    47.99% {
+      opacity: 1;
+    }
+    48% {
+      opacity: 0;
+    }
+    49% {
+      opacity: 0;
+    }
+    49.01% {
+      opacity: 1;
+    }
+  }
 `;
 
 export const TopMenu = styled.div`
@@ -19,7 +54,7 @@ export const TopMenu = styled.div`
   align-self: center;
   position: sticky;
   top: 0;
-  background-color: #28282B;
+  background-color: #28282b;
 
   div {
     padding: 2px;
@@ -41,6 +76,7 @@ export const AuthorItem = styled.h2`
   font-weight: 700;
   padding: 2px;
   margin: 0px auto 0px 20px;
+  cursor: url("/goldSword.cur"), auto;
 `;
 
 export const Elements = styled.section`
@@ -58,7 +94,7 @@ export const TopMenuItens = styled.div`
 `;
 
 export const PersonalContainer = styled.div`
-  width: 100%; 
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

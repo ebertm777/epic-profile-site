@@ -9,6 +9,8 @@ const MenuComponents = (name) => {
   return <S.TopMenuItens>{name}</S.TopMenuItens>;
 };
 
+const goTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
 const MenuItens = ({
   href,
   name,
@@ -27,7 +29,9 @@ export default function Main() {
     <S.Container>
       <GlobalStyle />
       <S.TopMenu>
-        <S.AuthorItem>About me.</S.AuthorItem>
+        <S.AuthorItem onClick={goTop} className="flicker-1">
+          About me.
+        </S.AuthorItem>
         <S.Elements>
           {menuData.map((item, index) => (
             <MenuItens key={index} href={item.href} name={item.name} />

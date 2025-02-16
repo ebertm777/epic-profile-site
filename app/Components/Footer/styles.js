@@ -5,10 +5,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 35px;
-  animation: color-change-5x 8s linear infinite alternate both;
+  animation: color-change-5x 6s linear infinite alternate both;
 
   .color-change-5x {
-    animation: color-change-5x 8s linear infinite alternate both;
+    animation: color-change-5x 6s linear infinite alternate both;
   }
 
   @keyframes color-change-5x {
