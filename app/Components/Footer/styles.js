@@ -13,19 +13,19 @@ export const Container = styled.div`
 
   @keyframes color-change-5x {
     0% {
-      background: #00a36c;
+      background: #662d91;
     }
     25% {
-      background: #96ded1;
+      background: #720e9e;
     }
     50% {
-      background: #008080;
+      background: #662d91;
     }
     75% {
-      background: #40e0d0;
+      background: #33006F;
     }
     100% {
-      background: #40b5ad;
+      background: #800080;
     }
   }
 `;

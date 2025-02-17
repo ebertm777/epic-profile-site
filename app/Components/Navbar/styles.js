@@ -29,7 +29,7 @@ export const TopMenu = styled.div`
 
     &:hover {
       color: #ffffff;
-      border-bottom: 4px solid #00a36c;
+      border-bottom: 4px solid #662d91;
     }
   }
 `;
