@@ -53,6 +53,7 @@ export const Elements = styled.section`
   width: 100%;
   max-width: 540px;
   justify-content: space-between;
+  margin-left: 6px;
 `;
 
 export const Anchor = styled.a`
