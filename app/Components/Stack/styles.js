@@ -3,14 +3,15 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   display: flex;
-  max-width: 1040px;
+  max-width: 1200px;
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: #36454f;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transition: all 100ms ease;
-  padding: 0px 80px 80px 80px;
+  /* padding: 0px 80px 80px 80px; */
+  padding: calc(10px + 1.5625vw);
   flex-direction: column;
 
   &:hover {
@@ -22,7 +23,7 @@ export const CardGroup = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 
   #card-0 {

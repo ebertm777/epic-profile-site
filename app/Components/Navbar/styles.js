@@ -7,7 +7,10 @@ export const Container = styled.div`
   justify-content: center;
   position: sticky;
   background-color: #28282b;
-  padding: 0px 120px 0px 120px;
+  /* padding: 0px 120px 0px 120px; */
+  /* padding: calc(10px + 1.5625vw);
+  padding-top: 0px;
+  padding-bottom: 0px; */
   z-index: 1000;
 `;
 
@@ -22,7 +25,7 @@ export const TopMenu = styled.div`
 
   div {
     padding: 2px;
-    margin: 0px 0px 0px 40px;
+    /* margin: 0px 0px 0px 40px; */
     transition: all 100ms ease;
     pointer-events: all;
     cursor: url("/goldSword.cur"), auto;
@@ -47,6 +50,9 @@ export const AuthorItem = styled.h2`
 export const Elements = styled.section`
   display: flex;
   flex-direction: row;
+  width: 100%;
+  max-width: 540px;
+  justify-content: space-between;
 `;
 
 export const Anchor = styled.a`
