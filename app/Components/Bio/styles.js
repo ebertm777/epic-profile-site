@@ -35,7 +35,6 @@ export const Container = styled.div`
   @media (max-width: 1379px) {
     justify-content: center;
   }
-
 `;
 
 export const BioPresentation = styled.div`
@@ -130,7 +129,6 @@ export const ProfilePic = styled.img.attrs({
   border-top-left-radius: 150px;
   border-bottom-right-radius: 123px;
   object-fit: cover;
-
   outline: 2px solid #662d91;
   transition: all 100ms ease;
   margin: 20px;
@@ -143,7 +141,11 @@ export const ProfilePic = styled.img.attrs({
     margin: 0px 0px 20px 0px;
   }
 
-  @media (max-width: 1379px) {
+  @media (max-width: 699px) {
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 123px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 `;
 

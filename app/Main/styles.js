@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  /* padding: 0px 120px 0px 120px; */
-
+  padding: 0px 5em 0px 5em;
+  /* padding: calc(20px + 1.5625vw); */
 `;
 
 export const PersonalContainer = styled.div`

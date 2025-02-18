@@ -10,9 +10,9 @@ export const Container = styled.div`
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transition: all 100ms ease;
-  /* padding: 0px 80px 80px 80px; */
-  padding: calc(10px + 1.5625vw);
+  padding: calc(20px + 1.5625vw);
   flex-direction: column;
+  align-items: center;
 
   &:hover {
     outline: 4px solid #662d91;
@@ -22,9 +22,10 @@ export const Container = styled.div`
 export const CardGroup = styled.div`
   display: flex;
   flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
   flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-around;
+  
 
   #card-0 {
     background-color: #b3f5c8;
@@ -58,6 +59,7 @@ export const Title = styled.h1`
   font-family: "Prompt";
   font-size: 34px;
   margin: 30px 0px 0px 0px;
+  align-self: flex-start;
 `;
 
 export const EmojiCall = styled.p`
@@ -85,6 +87,7 @@ export const SmallTitle = styled.p`
   font-weight: 400;
   margin-left: 0px;
   font-size: 18px;
+  align-self: flex-start;
 `;
 
 export const MainSkills = styled.div`

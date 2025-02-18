@@ -37,6 +37,7 @@ export const FooterContent = styled.div`
   align-items: center;
   width: 100%;
   max-width: 1200px;
+  padding: 0px 12px 0px 12px;
 `;
 
 export const Creation = styled.div`
