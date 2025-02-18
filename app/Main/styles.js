@@ -5,6 +5,10 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 0px 5em 0px 5em;
   /* padding: calc(20px + 1.5625vw); */
+
+  @media (max-width: 600px) {
+    padding: 0px 3em 0px 3em;
+  }
 `;
 
 export const PersonalContainer = styled.div`

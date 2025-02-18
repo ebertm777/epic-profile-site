@@ -82,20 +82,25 @@ export const Description = styled.p`
 
 export const SmallTitle = styled.p`
   margin-top: 16px;
+  margin-left: 0px;
   color: #f9f6ee;
   font-family: "Quicksand";
   font-weight: 400;
-  margin-left: 0px;
   font-size: 18px;
   align-self: flex-start;
+
+  @media (max-width: 600px) {
+    margin-bottom: 0px;
+  }
 `;
 
 export const MainSkills = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+  flex-wrap: wrap;
 `;
 
 export const Skills = styled.img`
-  margin: 0px 10px 0px 0px;
+  margin: 10px 10px 0px 0px;
 `;
