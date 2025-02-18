@@ -25,7 +25,6 @@ export const CardGroup = styled.div`
   flex-wrap: wrap;
   width: 90%;
   justify-content: space-between;
-  
 
   #card-0 {
     background-color: #b3f5c8;
@@ -103,4 +102,10 @@ export const MainSkills = styled.div`
 
 export const Skills = styled.img`
   margin: 10px 10px 0px 0px;
+`;
+
+export const SkillsGroups = styled.div`
+  display: flex;
+  width: 90%;
+  flex-direction: column;
 `;
