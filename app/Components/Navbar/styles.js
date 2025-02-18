@@ -60,6 +60,11 @@ export const Elements = styled.section`
   justify-content: space-between;
   margin-left: 6px;
   align-items: center;
+
+  @media (max-width: 600px) {
+    margin-right: 6px;
+    padding: 0px 6px 0px 6px;
+  }
 `;
 
 export const Anchor = styled.a`
