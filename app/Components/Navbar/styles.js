@@ -44,6 +44,12 @@ export const AuthorItem = styled.h2`
   margin: 0px auto 0px 20px;
   min-width: fit-content;
   cursor: url("/goldSword.cur"), auto;
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+    display: flex;
+    align-items: anchor-center;
+  }
 `;
 
 export const Elements = styled.section`
