@@ -80,3 +80,13 @@ export const MadeWith = styled.p`
   color: #ffffff;
   margin-left: 4px;
 `;
+
+export const BlackMage = styled.img`
+width: 28px;
+height: 28px;
+
+@media (max-width: 600px) {
+  width: 25px;
+  height: 25px;
+  }
+`;

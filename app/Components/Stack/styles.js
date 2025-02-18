@@ -24,7 +24,7 @@ export const CardGroup = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   width: 90%;
-  justify-content: space-around;
+  justify-content: space-between;
   
 
   #card-0 {

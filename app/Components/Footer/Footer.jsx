@@ -7,13 +7,14 @@ export default function Footer() {
       <S.FooterContent>
         <S.Creation>
           <S.Iten>Created by:</S.Iten>
-          <S.Name>Eber Torres Macedo</S.Name>
+          <S.Name>Eber Macedo</S.Name>
         </S.Creation>
+        <S.BlackMage src="/blackmage.gif"/>
         <S.Year>2025®</S.Year>
+        <S.BlackMage src="/blackmage.gif"/>
         <S.Creation>
-          {/* <S.Used>Using:</S.Used> */}
           <S.MadeWith>
-            Javascript, React, Node.JS and Next.JS
+            Javascript, React, Node.JS
           </S.MadeWith>
         </S.Creation>
       </S.FooterContent>
