@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "My Profile Site",
+  title: "Eber T.M Profile Site",
   description: "Criado com Next.js",
 };
 
