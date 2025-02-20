@@ -23,7 +23,7 @@ export const TopMenu = styled.div`
     padding: 2px;
     transition: all 100ms ease;
     pointer-events: all;
-    cursor: url("/goldSword.cur"), auto;
+    cursor: url("/Images/goldSword.cur"), auto;
 
     &:hover {
       color: #ffffff;
@@ -43,7 +43,7 @@ export const AuthorItem = styled.h2`
   padding: 2px;
   margin: 0px auto 0px 20px;
   min-width: fit-content;
-  cursor: url("/goldSword.cur"), auto;
+  cursor: url("/Images/goldSword.cur"), auto;
 
   @media (max-width: 600px) {
     font-size: 18px;

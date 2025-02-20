@@ -6,7 +6,7 @@ export default css`
     font-family: "Lato";
     font-weight: 400;
     font-display: swap;
-    src: url("/Lato-Regular.ttf") format("truetype");
+    src: url("/Fonts/Lato-Regular.ttf") format("truetype");
   }
 
   // Lato Bold
@@ -14,7 +14,7 @@ export default css`
     font-family: "Lato";
     font-weight: 700;
     font-display: swap;
-    src: url("/Lato-Bold.ttf") format("truetype");
+    src: url("/Fonts/Lato-Bold.ttf") format("truetype");
   }
 
   // Lato Thin
@@ -22,7 +22,7 @@ export default css`
     font-family: "Lato";
     font-weight: 100;
     font-display: swap;
-    src: url("/Lato-Thin.ttf") format("truetype");
+    src: url("/Fonts/Lato-Thin.ttf") format("truetype");
   }
 
   // Lato Light
@@ -30,7 +30,7 @@ export default css`
     font-family: "Lato";
     font-weight: 300;
     font-display: swap;
-    src: url("/Lato-Light.ttf") format("truetype");
+    src: url("/Fonts/Lato-Light.ttf") format("truetype");
   }
 
   // Quicksand Regular
@@ -38,7 +38,7 @@ export default css`
     font-family: "Quicksand";
     font-weight: 400;
     font-display: swap;
-    src: url("/Quicksand-Regular.ttf") format("truetype");
+    src: url("/Fonts/Quicksand-Regular.ttf") format("truetype");
   }
 
   // Quicksand semi bold
@@ -46,7 +46,7 @@ export default css`
     font-family: "Quicksand";
     font-weight: 700;
     font-display: swap;
-    src: url("/Quicksand-SemiBold.ttf") format("truetype");
+    src: url("/Fonts/Quicksand-SemiBold.ttf") format("truetype");
   }
 
   // Quicksand light
@@ -54,7 +54,7 @@ export default css`
     font-family: "Quicksand";
     font-weight: 100;
     font-display: swap;
-    src: url("/Quicksand-Light.ttf") format("truetype");
+    src: url("/Fonts/Quicksand-Light.ttf") format("truetype");
   }
 
   // Prompt Regular
@@ -62,7 +62,7 @@ export default css`
     font-family: "Prompt";
     font-weight: 400;
     font-display: swap;
-    src: url("/Prompt-Regular.ttf") format("truetype");
+    src: url("/Fonts/Prompt-Regular.ttf") format("truetype");
   }
 
   // Prompt Thin
@@ -70,6 +70,6 @@ export default css`
     font-family: "Prompt";
     font-weight: 100;
     font-display: swap;
-    src: url("/Prompt-Thin.ttf") format("truetype");
+    src: url("/Fonts/Prompt-Thin.ttf") format("truetype");
   }
 `;

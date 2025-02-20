@@ -9,9 +9,9 @@ export default function Footer() {
           <S.Iten>Created by:</S.Iten>
           <S.Name>Eber Macedo</S.Name>
         </S.Creation>
-        <S.BlackMage src="/blackmage.gif"/>
+        <S.BlackMage src="/Images/blackmage.gif"/>
         <S.Year>2025®</S.Year>
-        <S.BlackMage src="/blackmage.gif"/>
+        <S.BlackMage src="/Images/blackmage.gif"/>
         <S.Creation>
           <S.MadeWith>
             Javascript, React, Node.JS

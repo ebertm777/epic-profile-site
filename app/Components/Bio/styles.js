@@ -120,7 +120,7 @@ export const MyName = styled.h1`
 `;
 
 export const ProfilePic = styled.img.attrs({
-  src: "/ValenciaFoto.jpg",
+  src: "/Images/ValenciaFoto.jpg",
 })`
   min-width: 290px;
   min-height: 480px;
@@ -160,14 +160,14 @@ export const Icons = styled.div`
 `;
 
 export const GithubIcon = styled.img.attrs({
-  src: "/github.svg",
+  src: "/Images/github.svg",
 })`
   width: 38px;
   height: 38px;
   border-radius: 50%;
   transition: all 100ms ease;
   margin-left: 10px;
-  cursor: url("/goldSword.cur"), auto;
+  cursor: url("/Images/goldSword.cur"), auto;
 
   &:hover {
     outline: 4px solid #662d91;
@@ -175,13 +175,13 @@ export const GithubIcon = styled.img.attrs({
 `;
 
 export const LinkedinIcon = styled.img.attrs({
-  src: "/linkedin.png",
+  src: "/Images/linkedin.png",
 })`
   width: 39px;
   height: 39px;
   border-radius: 50%;
   transition: all 100ms ease;
-  cursor: url("/goldSword.cur"), auto;
+  cursor: url("/Images/goldSword.cur"), auto;
 
   &:hover {
     outline: 4px solid #662d91;
