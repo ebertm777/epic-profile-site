@@ -11,7 +11,7 @@ const goTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 const MenuItens = ({
   href,
   name,
-  target = "_blank",
+  target = name === "Projects" ? "_self" : "_blank",
   rel = "noopener noreferrer",
 }) => {
   return (
@@ -20,7 +20,6 @@ const MenuItens = ({
     </S.Anchor>
   );
 };
-
 export default function NavBar() {
   return (
     <S.Container>

@@ -4,7 +4,7 @@ import Footer from "./Components/Footer/Footer.jsx";
 import NavBar from "./Components/Navbar/Navbar.jsx";
 
 const Azem =
-  "Herein I commit the chronicle of the traveler. Shepherd to the stars in the dark. Though the world be sundered and our souls set adrift, where you walk, my dearest friend, fate shall surely follow. For yours is the Fourteenth seat--the seat of Azem. ";
+  "Herein I commit the chronicle of the traveler. Shepherd to the stars in the dark.";
 
 console.log(
   "%c " + Azem,
