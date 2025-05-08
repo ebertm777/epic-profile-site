@@ -72,4 +72,12 @@ export default css`
     font-display: swap;
     src: url("/Fonts/Prompt-Thin.ttf") format("truetype");
   }
+
+   // Medieval Sharp
+   @font-face {
+    font-family: "MedievalSharp";
+    font-weight: 400;
+    font-display: swap;
+    src: url("/Fonts/MedievalSharp-Regular.ttf") format("truetype");
+  }
 `;
