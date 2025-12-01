@@ -19,7 +19,7 @@ export default function Rpg() {
       <S.Container $isActive={open}>
         <iframe
           src="https://dungeon-crawler-cards.vercel.app/"
-          title="Flourish Story"
+          title="RPG Dungeon Crawler Cards"
           width="100%"
           height="100%"
           allowFullScreen

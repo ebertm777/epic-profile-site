@@ -14,12 +14,23 @@ const MenuItens = ({
   target = name === "Projects" ? "_self" : "_blank",
   rel = "noopener noreferrer",
 }) => {
+  const handleClick = (e) => {
+    if (name === "Projects") {
+      e.preventDefault();
+      const section = document.getElementById("projects");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
-    <S.Anchor href={href} target={target} rel={rel}>
+    <S.Anchor href={href} target={target} rel={rel} onClick={handleClick}>
       {MenuComponents(name)}
     </S.Anchor>
   );
 };
+
 export default function NavBar() {
   return (
     <S.Container>

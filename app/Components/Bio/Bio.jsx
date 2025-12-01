@@ -22,7 +22,7 @@ export default function Bio() {
         </h3>
         <h3>
           Currently focused on leveling up my programming skills, aiming to go
-          full-stack by the end of 2025.🔭
+          full-stack by the end of 2026.🔭
         </h3>
         <S.Icons>
           <Anchor href={linkedinLink} target="_blank" rel="noopener noreferrer">

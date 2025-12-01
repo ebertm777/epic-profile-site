@@ -109,3 +109,27 @@ export const SkillsGroups = styled.div`
   width: 90%;
   flex-direction: column;
 `;
+
+
+//i18n
+
+export const LangButton = styled.button`
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: #662d91;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Prompt";
+
+  &:hover {
+    opacity: 0.8;
+  }
+`;
+
+export const LangGroup = styled.div`
+  display: flex;
+  gap: 12px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+`;

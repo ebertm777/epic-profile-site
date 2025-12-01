@@ -12,7 +12,7 @@ export default function Stack() {
       <S.Title>🛠️ Tech Stack:</S.Title>
       <S.SkillsGroups>
         <S.SmallTitle>Main Skills</S.SmallTitle>
-        <S.MainSkills>{generateSkills(4)}</S.MainSkills>
+        <S.MainSkills>{generateSkills(6)}</S.MainSkills>
       </S.SkillsGroups>
       <S.SkillsGroups>
         <S.SmallTitle>Tools & Technologies</S.SmallTitle>
