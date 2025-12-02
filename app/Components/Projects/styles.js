@@ -59,7 +59,7 @@ export const ProjectName = styled.h3`
   margin-bottom: 0px;
   max-width: 320px;
   border-bottom: 1px solid #555;
-  height: 58px;
+  padding-bottom: 6px;
 `;
 
 export const AboutProject = styled.p`

@@ -63,8 +63,8 @@ export default function Projects() {
             Este Projeto foi desenvolvido para agilizar a criação de imagens
             para redes sociais, especialmente para posts relacionados a
             confrontos entre times de futebol. A ferramenta permite a geração
-            rápida de imagens atrativas, economizando tempo e esforço na
-            produção de conteúdo visual.
+            rápida de imagens atrativas, economizando tempo e esforço da equipe
+            de designers na produção de conteúdo visual.
             <br />
             <br />
             Stack Utilizada: Javascript, React, Styled-Components, HTML5, Axios.
@@ -147,6 +147,57 @@ export default function Projects() {
               )
             }
             src="/Images/GymGamefy.gif"
+          />
+        </S.ProjectsContainer>
+
+        <S.ProjectsContainer>
+          <S.ProjectName>
+            Projeto para apresentação de dados Sobre conflito em Gaza:
+          </S.ProjectName>
+          <S.AboutProject>
+            (Projeto Criado para o Jornal O Globo)
+            <br />
+            <br />
+            Neste projeto apresento um Dataviz interativo que ilustra o impacto
+            do uso de explosivos durante o conflito em Gaza através de gráficos
+            e criando também uma interação de apresentação conforme o usuario
+            usa o scroll do mouse ou celular para subir ou descer a
+            visualização.
+            <br />
+            <br />
+            Stack Utilizada: Javascript, Styled-Components, React, D3.js e Redux
+            para gerenciar estados.
+          </S.AboutProject>
+          <p className="clickMe">Click no Gif para ampliar 👇</p>
+          <S.ProjectCard
+            onClick={() => openModal("/Images/GraficsBall.gif")}
+            src="/Images/GraficsBall.gif"
+          />
+        </S.ProjectsContainer>
+
+        <S.ProjectsContainer>
+          <S.ProjectName>Medieval Data View:</S.ProjectName>
+          <S.AboutProject>
+            (Em Construção)
+            <br />
+            <br />
+            Criei este projeto como um futuro complemento para o Simulador de
+            RPG que também apresento nesta pagina mais abaixo. O objetivo é que
+            quando estiver tudo pronto e rodando aqui no Medieval Data View seja
+            possivél visualizar os resultados da temporada atual para cada
+            participante, os dados gerados pelo simulador serão consumidos aqui
+            como uma API Rest.
+            <br />
+            <br />
+            Stack Utilizada: Javascript, CSS3, React e D3.js para visualização e
+            apresentação dos dados de forma interativa.
+          </S.AboutProject>
+          <p className="clickMe">Click no Gif para ir ao site do projeto 👇</p>
+          <S.ProjectCard
+            onClick={() =>
+              window.open("https://medieval-data-view.vercel.app/", "_blank")
+            }
+            src="/Images/MedievalDataViz.gif"
           />
         </S.ProjectsContainer>
       </div>
