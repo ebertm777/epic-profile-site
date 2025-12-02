@@ -36,7 +36,7 @@ export default function Projects() {
       <div className="projects-grid">
         <S.ProjectsContainer>
           <S.ProjectName>
-            Gerador de Imagens rapidas para Podcasts:
+            Gerador de Imagens rápidas para Podcasts:
           </S.ProjectName>
           <S.AboutProject>
             Criei esta ferramenta geradora de imagens para resolver um problema
@@ -82,11 +82,14 @@ export default function Projects() {
             Uma ferramenta que gera, em segundos, descrições profissionais com
             título otimizado, texto persuasivo e palavras-chave SEO.
             <br />
-            <br />O que ela faz: Gera descrições para diversas categorias
-            (eletrônicos, moda, hospedagem...) Adapta o tom de voz
-            (profissional, descontraído, luxuoso...) Otimiza para Mercado Livre,
-            OLX, Shopee e Airbnb Entregando títulos, descrições e keywords em
-            menos de 10 segundos.
+            <br />O que ela faz: <br />
+            • Gera descrições para diversas categorias (eletrônicos, moda,
+            hospedagem...)
+            <br />
+            • Adapta o tom de voz (profissional, descontraído, luxuoso...)
+            <br />
+            • Otimiza para Mercado Livre, OLX, Shopee e Airbnb Entregando
+            títulos, descrições e keywords em menos de 10 segundos.
             <br />
             <br />
             Stack Utilizada: React, TypeScript, Tailwind. <br />
