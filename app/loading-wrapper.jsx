@@ -36,7 +36,6 @@ const GlobalStyles = createGlobalStyle`
   background-size: cover;
   background-position: center;
 
-  /* 🔥 contra-rotação para cancelar o giro do pai */
   animation: counterspin 2s linear infinite;
 }
 
@@ -69,7 +68,7 @@ export default function LoadingWrapper({ children }) {
     <>
       <GlobalStyles />
 
-      {/* Script que remove o loading ao carregar */}
+      {/* remove o loading ao carregar */}
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -80,12 +79,10 @@ export default function LoadingWrapper({ children }) {
         }}
       />
 
-      {/* Loading */}
       <div id="loading-screen">
         <div id="loading-logo"></div>
       </div>
 
-      {/* Conteúdo real */}
       {children}
     </>
   );
