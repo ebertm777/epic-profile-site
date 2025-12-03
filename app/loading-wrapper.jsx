@@ -11,17 +11,42 @@ const GlobalStyles = createGlobalStyle`
     align-items: center;
     justify-content: center;
     z-index: 9999;
-    transition: opacity 1s ease, visibility .4s ease;
+    transition: opacity 2s ease-in-out, visibility 0s linear 2s;
+
   }
 
-  #loading-logo {
-    width: 80px;
-    height: 80px;
-    border: 4px solid rgba(102, 45, 145, 0.4);
-    border-top: 4px solid rgb(102, 45, 145);
-    border-radius: 50%;
-    animation: spin 1s linear infinite, glow 2s ease-in-out infinite;
-  }
+#loading-logo {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: 4px solid rgba(102, 45, 145, 0.4);
+  border-top: 4px solid rgb(102, 45, 145);
+  border-radius: 50%;
+  animation: spin 2s linear infinite, glow 2s ease-in-out infinite;
+}
+
+#loading-logo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 36px;
+  height: 36px;
+  background-image: url("/Images/blackmage.gif");
+  background-size: cover;
+  background-position: center;
+
+  /* 🔥 contra-rotação para cancelar o giro do pai */
+  animation: counterspin 2s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes counterspin {
+  to { transform: rotate(-360deg); }
+}
 
   @keyframes spin {
     to { transform: rotate(360deg); }
