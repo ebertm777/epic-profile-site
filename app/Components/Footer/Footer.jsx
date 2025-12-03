@@ -10,7 +10,7 @@ export default function Footer() {
           <S.Name>Eber Macedo</S.Name>
         </S.Creation>
         <S.BlackMage src="/Images/blackmage.gif"/>
-        <S.Year>2025®</S.Year>
+        <S.Year>2026</S.Year>
         <S.BlackMage src="/Images/blackmage.gif"/>
         <S.Creation>
           <S.MadeWith>
