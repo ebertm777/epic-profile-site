@@ -131,8 +131,7 @@ export default function Projects() {
             i18n: Support for 5 languages (PT, EN, DE, IT, ZH).
             <br />
             Monetization: AdMob + RevenueCat (IAP)
-            <br />
-            Privacy: 100% local storage
+            
             <br />
             <br />
             Available on the Play Store.
