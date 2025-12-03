@@ -9,7 +9,7 @@ export const linkedinLink = "https://www.linkedin.com/in/ebermacedo/";
 export const githubLink = "https://github.com/ebertm777";
 
 export const cardData = [
-  "Currently using JavaScript, Typescript, React, Tailwind, Styled-Components and Node.js to build awesome web applications at work, with a strong focus on user usability and interactive applications.",
+  "Currently using JavaScript, Typescript, React, Tailwind, Styled-Components and Node.js to build awesome web applications, with a strong focus on user usability and interactive applications.",
   "You'll probably find me playing video games, Magic: The Gathering, watching Movies, Series, Animes or listening to music.",
   "Right now, I'm focusing on learning TypeScript, Next.js, and Tailwind CSS. My goal is to keep improving my frontend skills since that's the part I enjoy the most.",
 ];

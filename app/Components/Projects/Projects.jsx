@@ -28,27 +28,27 @@ export default function Projects() {
         </S.ModalOverlay>
       )}
       <S.Title>
-        Aqui apresento alguns dos projetos que desenvolvi, tanto pessoais quanto
-        profissionais. Como alguns trabalhos são confidenciais, não posso
-        compartilhar o código, mas disponibilizo GIFs para que você possa
-        visualizar o funcionamento das aplicações.
+        Here I showcase some of the projects I’ve developed, both personal and
+        professional. Since some work is confidential, I cannot share the source
+        code, but I’ve included GIFs so you can visualize how the applications
+        work.
       </S.Title>
       <div className="projects-grid">
         <S.ProjectsContainer>
           <S.ProjectName>
-            Gerador de Imagens rápidas para Podcasts:
+            Fast Image Generator for Podcasts and Social Media Posts:
           </S.ProjectName>
           <S.AboutProject>
-            Criei esta ferramenta geradora de imagens para resolver um problema
-            constante dos designers na minha equipe que consistia em ter de
-            utilizar Photoshop para gerar imagens simples, apenas uma colagem ou
-            um simples Filtro para um podcast ou postagem, acelerando assim o
-            processo de publicação.
+            I created this image-generation tool to solve a recurring problem
+            for the designers on my team, who often had to use Photoshop to
+            produce simple images—just a collage or a basic filter—for a podcast
+            or social media post. This tool speeds up the publication process by
+            making that workflow much more efficient.
             <br />
             <br />
-            Stack Utilizada: Javascript, React, Sass, HTML5.
+            Tech Stack Used: Javascript, React, Sass, HTML5.
           </S.AboutProject>
-          <p className="clickMe">Click no Gif para ampliar 👇</p>
+          <p className="clickMe">Click on the GIF to enlarge</p>
           <S.ProjectCard
             onClick={() => openModal("/Images/Project-Globo-Example1.gif")}
             src="/Images/Project-Globo-Example1.gif"
@@ -56,20 +56,18 @@ export default function Projects() {
         </S.ProjectsContainer>
 
         <S.ProjectsContainer>
-          <S.ProjectName>
-            Gerador de imagens para confrontos entre times de futebol:
-          </S.ProjectName>
+          <S.ProjectName>Image Generator for Football Matchups:</S.ProjectName>
           <S.AboutProject>
-            Este Projeto foi desenvolvido para agilizar a criação de imagens
-            para redes sociais, especialmente para posts relacionados a
-            confrontos entre times de futebol. A ferramenta permite a geração
-            rápida de imagens atrativas, economizando tempo e esforço da equipe
-            de designers na produção de conteúdo visual.
+            This project was developed to speed up the creation of images for
+            social media, especially for posts related to football team
+            matchups. The tool allows fast generation of appealing visuals,
+            saving the design team time and effort in producing graphic content.
             <br />
             <br />
-            Stack Utilizada: Javascript, React, Styled-Components, HTML5, Axios.
+            Tech Stack Used: JavaScript, React, Styled-Components, HTML5, and
+            Axios for API consumption.
           </S.AboutProject>
-          <p className="clickMe">Click no Gif para ampliar 👇</p>
+          <p className="clickMe">Click on the GIF to enlarge</p>
           <S.ProjectCard
             onClick={() => openModal("/Images/Project-Globo-Example2.gif")}
             src="/Images/Project-Globo-Example2.gif"
@@ -79,25 +77,26 @@ export default function Projects() {
         <S.ProjectsContainer>
           <S.ProjectName>Descreve+:</S.ProjectName>
           <S.AboutProject>
-            Uma ferramenta que gera, em segundos, descrições profissionais com
-            título otimizado, texto persuasivo e palavras-chave SEO.
-            <br />
-            <br />O que ela faz: <br />
-            • Gera descrições para diversas categorias (eletrônicos, moda,
-            hospedagem...)
-            <br />
-            • Adapta o tom de voz (profissional, descontraído, luxuoso...)
-            <br />
-            • Otimiza para Mercado Livre, OLX, Shopee e Airbnb Entregando
-            títulos, descrições e keywords em menos de 10 segundos.
+            A tool that generates, in seconds, professional descriptions with
+            optimized titles, persuasive text, and SEO keywords.
             <br />
             <br />
-            Stack Utilizada: React, TypeScript, Tailwind. <br />
-            Backend: Edge Functions(Deno) para backend serverless, IA generativa
-            para processamento de texto: Gemini. Pagamentos: Stripe.
+            What it does: <br />
+            • Generates descriptions for various categories (electronics,
+            fashion, hospitality...)
+            <br />
+            • Adapts the tone of voice (professional, casual, luxurious...)
+            <br />
+            • Optimizes for Mercado Livre, OLX, Shopee, and Airbnb, delivering
+            titles, descriptions, and keywords in under 10 seconds.
+            <br />
+            <br />
+            Tech Stack Used: React, TypeScript, Tailwind. <br />
+            Backend: Edge Functions (Deno) for serverless backend, generative AI
+            for text processing: Gemini. Payments: Stripe.
           </S.AboutProject>
           <p className="clickMe">
-            Click na imagem para ir até o site do projeto 👇
+            Click the image to visit the project website 👇
           </p>
           <S.ProjectCard
             onClick={() =>
@@ -110,35 +109,38 @@ export default function Projects() {
         <S.ProjectsContainer>
           <S.ProjectName>Gym Gamefy:</S.ProjectName>
           <S.AboutProject>
-            Nste projeto Criei um aplicativo que gamifica a experiência de
-            academia, tornando exercícios físicos mais motivadores e engajantes.
+            In this project, I created an app that gamifies the gym experience,
+            making physical exercise more motivating and engaging.
             <br />
             <br />
-            Destaques:
-            <br />• Sistema completo de gamificação com XP, níveis e conquistas.{" "}
+            Highlights:
+            <br />• Complete gamification system with XP, levels, and
+            achievements. <br />
+            • Personalized workouts with 80+ exercises.
             <br />
-            • Treinos personalizados com +80 exercícios.
+            • Global sharing — any user can import workouts.
             <br />
-            • Compartilhamento global - qualquer usuário pode importar treinos.
+            • Interface in 5 languages, international reach.
             <br />
-            • Interface em 5 idiomas, alcance internacional.
-            <br />
-            • Privacidade total - dados armazenados apenas no dispositivo.
-            <br />
-            <br />
-            Stack Utilizada: React, TypeScript, Capacitor(Android/iOS), Tailwind
-            CSS, shadcn/ui, Radix UI.
-            <br />
-            i18n: Suporte a 5 idiomas (PT, EN, DE, IT, ZH).
-            <br />
-            Monetização: AdMob + RevenueCat (IAP)
-            <br />
-            Privacidade: Armazenamento 100% local
+            • Full privacy — data stored only on the device.
             <br />
             <br />
-            Disponivel na Play Store.
+            Tech Stack Used: React, TypeScript, Capacitor (Android/iOS),
+            Tailwind CSS, Shadcn/ui, Radix UI.
+            <br />
+            i18n: Support for 5 languages (PT, EN, DE, IT, ZH).
+            <br />
+            Monetization: AdMob + RevenueCat (IAP)
+            <br />
+            Privacy: 100% local storage
+            <br />
+            <br />
+            Available on the Play Store.
           </S.AboutProject>
-          <p className="clickMe">Click no Gif para ir ao site do projeto 👇</p>
+
+          <p className="clickMe">
+            Click the image to visit the project website 👇
+          </p>
           <S.ProjectCard
             onClick={() =>
               window.open(
@@ -152,23 +154,23 @@ export default function Projects() {
 
         <S.ProjectsContainer>
           <S.ProjectName>
-            Projeto para apresentação de dados Sobre conflito em Gaza:
+            Project for presenting data about the conflict in Gaza:
           </S.ProjectName>
           <S.AboutProject>
-            (Projeto Criado para o Jornal O Globo)
+            (Project created for the newspaper O Globo)
             <br />
             <br />
-            Neste projeto apresento um Dataviz interativo que ilustra o impacto
-            do uso de explosivos durante o conflito em Gaza através de gráficos
-            e criando também uma interação de apresentação conforme o usuario
-            usa o scroll do mouse ou celular para subir ou descer a
-            visualização.
+            In this project, I present an interactive Dataviz that illustrates
+            the impact of explosive use during the conflict in Gaza through
+            charts, while also creating a scroll-driven interaction that changes
+            the presentation as the user scrolls up or down on the mouse or
+            mobile device.
             <br />
             <br />
-            Stack Utilizada: Javascript, Styled-Components, React, D3.js e Redux
-            para gerenciar estados.
+            Tech Stack Used: JavaScript, Styled-Components, React, D3.js, and
+            Redux for state management.
           </S.AboutProject>
-          <p className="clickMe">Click no Gif para ampliar 👇</p>
+          <p className="clickMe">Click on the GIF to enlarge</p>
           <S.ProjectCard
             onClick={() => openModal("/Images/GraficsBall.gif")}
             src="/Images/GraficsBall.gif"
@@ -178,21 +180,23 @@ export default function Projects() {
         <S.ProjectsContainer>
           <S.ProjectName>Medieval Data View:</S.ProjectName>
           <S.AboutProject>
-            (Em Construção)
+            (Under Construction)
             <br />
             <br />
-            Criei este projeto como um futuro complemento para o Simulador de
-            RPG que também apresento nesta pagina mais abaixo. O objetivo é que
-            quando estiver tudo pronto e rodando aqui no Medieval Data View seja
-            possivél visualizar os resultados da temporada atual para cada
-            participante, os dados gerados pelo simulador serão consumidos aqui
-            como uma API Rest.
+            I created this project as a future complement to the RPG Simulator
+            that I also showcase further down on this page. The goal is that
+            once everything is ready and running, Medieval Data View will allow
+            users to visualize the current season’s results for each
+            participant. The data generated by the simulator will be consumed
+            here as a API.
             <br />
             <br />
-            Stack Utilizada: Javascript, CSS3, React e D3.js para visualização e
-            apresentação dos dados de forma interativa.
+            Tech Stack Used: JavaScript, CSS3, React, and D3.js for interactive
+            data visualization and presentation.
           </S.AboutProject>
-          <p className="clickMe">Click no Gif para ir ao site do projeto 👇</p>
+          <p className="clickMe">
+            Click the image to visit the project website 👇
+          </p>
           <S.ProjectCard
             onClick={() =>
               window.open("https://medieval-data-view.vercel.app/", "_blank")
@@ -202,9 +206,9 @@ export default function Projects() {
         </S.ProjectsContainer>
       </div>
       <p className="More">
-        E tem mais! 👇 <br></br>
-        abaixo o esboço de um sistema de RPG ainda em construção para geração de
-        aventuras automatizadas.
+        And there's more! 👇 <br></br>
+        below is the draft of an RPG system still under development for
+        generating automated adventures.
       </p>
     </S.Container>
   );
