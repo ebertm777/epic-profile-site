@@ -126,7 +126,8 @@ export default function Projects() {
             <br />
             <br />
             Tech Stack Used: React, TypeScript, Capacitor (Android/iOS),
-            Tailwind CSS, Shadcn/ui, Radix UI.
+            Tailwind CSS, Shadcn/ui, Radix UI, Recharts for data visualization e
+            TanStack Query for asynchronous state management.
             <br />
             i18n: Support for 5 languages (PT, EN, DE, IT, ZH).
             <br />
