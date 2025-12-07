@@ -137,3 +137,11 @@ export const CloseButton = styled.button`
     color: #ff5555;
   }
 `;
+
+export const LinkButton = styled.div`
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 8px;
+  color: #f0f0f0f0;
+  font-family: "Lato";
+`;

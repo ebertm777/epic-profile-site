@@ -131,7 +131,6 @@ export default function Projects() {
             i18n: Support for 5 languages (PT, EN, DE, IT, ZH).
             <br />
             Monetization: AdMob + RevenueCat (IAP)
-            
             <br />
             <br />
             Available on the Play Store.
@@ -174,8 +173,54 @@ export default function Projects() {
             onClick={() => openModal("/Images/GraficsBall.gif")}
             src="/Images/GraficsBall.gif"
           />
+
+          <S.LinkButton
+            onClick={() =>
+              window.open(
+                "https://infograficos.oglobo.globo.com/mundo/dois-anos-guerra-em-gaza.html",
+                "_blank"
+              )
+            }
+          >
+            • Click to visit the project page.
+          </S.LinkButton>
         </S.ProjectsContainer>
 
+        <S.ProjectsContainer>
+          <S.ProjectName>
+            Guide to Private Schools in the cities of Rio de Janeiro and São
+            Paulo:
+          </S.ProjectName>
+          <S.AboutProject>
+            (Project created for the newspaper O Globo)
+            <br />
+            <br />
+            In this project, I developed a platform that searches an API and
+            filters schools in the cities of Rio de Janeiro and São Paulo using
+            multiple relevance criteria, such as price range and student
+            activities.
+            <br />
+            <br />
+            Tech Stack Used: JavaScript, Styled-Components, React, Redux e
+            Leaflet for maps.
+          </S.AboutProject>
+          <p className="clickMe">•Click on the GIF to enlarge</p>
+          <S.ProjectCard
+            onClick={() => openModal("/Images/GuiaEscolas.gif")}
+            src="/Images/GuiaEscolas.gif"
+          />
+
+          <S.LinkButton
+            onClick={() =>
+              window.open(
+                "https://infograficos.oglobo.globo.com/brasil/guia-encontrar-melhores-escolas-rio-de-janeiro-sao-paulo-fundamental-e-medio.html",
+                "_blank"
+              )
+            }
+          >
+            • Click to visit the project page.
+          </S.LinkButton>
+        </S.ProjectsContainer>
         <S.ProjectsContainer>
           <S.ProjectName>Medieval Data View:</S.ProjectName>
           <S.AboutProject>
@@ -203,11 +248,38 @@ export default function Projects() {
             src="/Images/MedievalDataViz.gif"
           />
         </S.ProjectsContainer>
+
+        <S.ProjectsContainer>
+          <S.ProjectName>
+            Crystal Ball of the 2023 Brazilian Championship:
+          </S.ProjectName>
+          <S.AboutProject>
+            (Project created for the newspaper O Globo)
+            <br />
+            <br />
+            In this project, developed in partnership with UFMG, I consume an
+            API of mathematical calculations and predictions to create a
+            visualization system for Brazilian league football teams in the 2023
+            season. Unfortunately, this project is no longer maintained by its
+            original owner, which has caused some image links to go missing. A
+            new version is currently under development.
+            <br />
+            <br />
+            Tech Stack Used: JavaScript, Styled-Components, React, D3.js for
+            data visualization.
+          </S.AboutProject>
+          <p className="clickMe">Click on the GIF to enlarge</p>
+          <S.ProjectCard
+            onClick={() => openModal("/Images/Boladecristal2023.gif")}
+            src="/Images/Boladecristal2023.gif"
+          />
+        </S.ProjectsContainer>
       </div>
       <p className="More">
         And there's more! 👇 <br></br>
         below is the draft of an RPG system still under development for
-        generating automated adventures.
+        generating automated adventures. This project uses the Dungeons and
+        Dragons system API to create battles.
       </p>
     </S.Container>
   );
