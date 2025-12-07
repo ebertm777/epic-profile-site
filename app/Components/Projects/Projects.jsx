@@ -39,12 +39,14 @@ export default function Projects() {
             Fast Image Generator for Podcasts and Social Media Posts:
           </S.ProjectName>
           <S.AboutProject>
+            (Project created for the Jornal O Globo design team)
+            <br />
+            <br />
             I created this image-generation tool to solve a recurring problem
             for the designers on my team, who often had to use Photoshop to
             produce simple images—just a collage or a basic filter—for a podcast
             or social media post. This tool speeds up the publication process by
             making that workflow much more efficient.
-            <br />
             <br />
             Tech Stack Used: Javascript, React, Sass, HTML5.
           </S.AboutProject>
@@ -58,6 +60,9 @@ export default function Projects() {
         <S.ProjectsContainer>
           <S.ProjectName>Image Generator for Football Matchups:</S.ProjectName>
           <S.AboutProject>
+           (Project created for the Jornal O Globo design team)
+           <br />
+            <br />
             This project was developed to speed up the creation of images for
             social media, especially for posts related to football team
             matchups. The tool allows fast generation of appealing visuals,
@@ -156,7 +161,7 @@ export default function Projects() {
             Project for presenting data about the conflict in Gaza:
           </S.ProjectName>
           <S.AboutProject>
-            (Project created for the newspaper O Globo)
+            (Project created for the Jornal O Globo website)
             <br />
             <br />
             In this project, I present an interactive Dataviz that illustrates
@@ -193,7 +198,7 @@ export default function Projects() {
             Paulo:
           </S.ProjectName>
           <S.AboutProject>
-            (Project created for the newspaper O Globo)
+            (Project created for the Jornal O Globo website)
             <br />
             <br />
             In this project, I developed a platform that searches an API and
