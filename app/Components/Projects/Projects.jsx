@@ -60,8 +60,8 @@ export default function Projects() {
         <S.ProjectsContainer>
           <S.ProjectName>Image Generator for Football Matchups:</S.ProjectName>
           <S.AboutProject>
-           (Project created for the Jornal O Globo design team)
-           <br />
+            (Project created for the Jornal O Globo design team)
+            <br />
             <br />
             This project was developed to speed up the creation of images for
             social media, especially for posts related to football team
@@ -285,7 +285,8 @@ export default function Projects() {
         And there's more! 👇 <br></br>
         below is the draft of an RPG system still under development for
         generating automated adventures. This project uses the Dungeons and
-        Dragons system API to create battles.
+        Dragons system API to create battles. (Click "Open RPG" to open an
+        iframe and test the system).
       </p>
     </S.Container>
   );

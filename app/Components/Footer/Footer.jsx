@@ -14,7 +14,7 @@ export default function Footer() {
         <S.BlackMage src="/Images/blackmage.gif"/>
         <S.Creation>
           <S.MadeWith>
-            Javascript, React, Next.JS, Node.JS
+            Javascript, React, Next.JS
           </S.MadeWith>
         </S.Creation>
       </S.FooterContent>

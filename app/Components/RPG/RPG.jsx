@@ -11,7 +11,7 @@ export default function Rpg() {
   return (
     <>
       <S.ShowRpgModel onClick={handleToggle}>
-        {open ? "Fechar RPG" : "Abrir RPG"}
+        {open ? "Fechar RPG" : "Open RPG"}
         <span role="img" aria-label="RPG">
           &nbsp;🎲
         </span>
